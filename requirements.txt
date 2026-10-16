@@ -1,0 +1,2 @@
+# Dependencies will be pinned when the Python implementation is introduced.
+# Arena is separate desktop software and is not installed through pip.
