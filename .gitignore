@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Credentials / local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw and processed datasets (retain directory notes)
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# Large / generated outputs
+results/*
+!results/README.md
+*.log
